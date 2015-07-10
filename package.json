@@ -1,0 +1,22 @@
+{
+  "author": "",
+  "name": "",
+  "description": "",
+  "version": "0.0.0",
+  "repository": {
+    "url": ""
+  },
+  "scripts": {
+    "build": "rm -rf public/assets/* && webpack -p --colors"
+  },
+  "dependencies": {
+    "jquery": "^2.1.4"
+  },
+  "devDependencies": {
+    "file-loader": "^0.8.4",
+    "manifest-revision-webpack-plugin": "0.0.5",
+    "node-libs-browser": "^0.5.2",
+    "path": "^0.11.14",
+    "webpack": "^1.10.1"
+  }
+}
